@@ -13,8 +13,8 @@ public class Thread3 implements Runnable {
 		//t.start();
 		//t1.start();
 		//t1.run();
-		//t3.start();
-		t3.run();
+		t1.start();
+		//t3.run();
 		for(int i = 0;i<=3;i++)
 		{
 		System.out.println("main");

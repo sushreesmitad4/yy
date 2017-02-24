@@ -30,7 +30,7 @@ public class TestLambda {
 	    System.out.println(name2);
 	}
 	
-	public void sortUsing7(List<String> names)
+	/*public void sortUsing7(List<String> names)
 	{
 		Collections.sort(names,new Comparator<String>() {
 			@Override
@@ -39,8 +39,17 @@ public class TestLambda {
 				return s1.compareTo(s2);
 			}
 		});
+	}*/
+	public void sortUsing7(List<String> names)
+	{
+		Collections.sort(names,new Comparator<String>(){
+			@Override
+			public int compare(String s1,String s2)
+			{
+				return s1.compareTo(s2);
+			}
+		});
 	}
-	
 	
 	public void sortUsing8(List<String> names)
 	{

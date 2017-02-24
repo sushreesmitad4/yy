@@ -2,7 +2,6 @@ package com.sus.equalandhashcode;
 
 import java.util.HashMap;
 
-import com.sus.CompareEmpObject;
 
 public class CompareId {
 	
