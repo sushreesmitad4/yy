@@ -1,4 +1,4 @@
-package scjp.pdf;
+package scjp.doc.string;
 
 import java.util.ArrayList;
 

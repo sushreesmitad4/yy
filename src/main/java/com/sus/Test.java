@@ -14,88 +14,25 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class Test {
+	//give the full control to the targeted compount to the work done
+	//one oj=bject is rely on another object but without knowing which class its belongs to at compile time
 	
 	
-	Integer id;
-	String name;
-		
-	
-	
-
-	public Integer getId() {
-		return id;
-	}
-
-
-
-	public String getName() {
-		return name;
-	}
-
-	@Override
-	public String toString() {
-		return "Test [id=" + id + ", name=" + name + "]";
-	}
-
-
-
-	
-	/*@Override
-	public int hashCode()
+	public static void main(String[] args)
 	{
+		List<String> list = new ArrayList<String>();
+		list.add("smita");
+		list.add("dhal");
+		list.add("ananya");
 		
-		int hash = (id==0?0:id.hashCode()+(name==null?0:name.hashCode()));
-		return hash;
-			
+		System.out.println(list);
+		
+		
+		Map<String,String> map = new HashMap<String,String>();
+		map.put("x", "smita");
+		map.put("y", "dhal");
+		map.put("z", "ananya");
+		System.out.println(map);
 	}
 	
-	@Override
-	
-	public boolean equals(Object obj)
-	{
-		
-		
-		if(obj==null)
-		{
-			return false;
-		}
-		if(!(obj instanceof Employee))
-		{
-			return false;
-		}
-		
-		Employee emp = (Employee)obj;
-		
-		return (emp.id.equals(this.id)
-				&& emp.id==this.id
-				&&emp.name.equals(this.name)
-				&& emp.name==this.name);
-	}
-
-	*/
-
-
-
-
-	public static void main(String args[])
-	{
-		
-		      // Create the sorted set
-		      SortedSet set = new TreeSet(); 
-
-		      // Add elements to the set
-		      set.add("y");
-		      set.add("c");
-		      set.add("a");
-
-		      // Iterating over the elements in the set
-		      Iterator it = set.iterator();
-
-		      while (it.hasNext()) {
-		         // Get element
-		         Object element = it.next();
-		         System.out.println(element.toString());
-		      }
-		 
-	}
 	}

@@ -39,6 +39,7 @@ public class RemoveDuplicateValueFromMap {
 	public static void main(String[] args) {
 		HashMap map =new HashMap();
 		 map.put("Vivaldi","Antonio");
+		 map.put("Vivaldi","axxx");
 		    map.put("Belucci", "Monica");
 		    map.put("Gudini", "Harry");
 		    map.put("Verdo", "Dhuzeppe");
