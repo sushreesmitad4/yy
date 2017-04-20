@@ -23,6 +23,8 @@ public class Day1 {
 		    System.out.println(s + var3); 
 
 		    scan.close();
+		    
+		    
 	}
 
 }

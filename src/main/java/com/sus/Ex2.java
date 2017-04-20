@@ -2,7 +2,7 @@ package com.sus;
 
 public class Ex2 {
 	
-	void function(int a,int b)
+	/*void function(int a,int b)
 	{
 		System.out.println(a+" "+b);
 	}
@@ -13,6 +13,8 @@ public class Ex2 {
 		Ex2 x2 = new Ex2();
 		x2.function(4, -6);
 
-	}
+	}*/
+	
+	 public final int a =3;
 
 }

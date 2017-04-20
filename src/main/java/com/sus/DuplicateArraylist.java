@@ -16,10 +16,10 @@ public class DuplicateArraylist {
 		li.add("jyo");
 		li.add("banty");
 		li.add("sus");
-		List li1 = new ArrayList(new TreeSet(li));
-		Set<String> set = new LinkedHashSet<String>(li);
+		/*List li1 = new ArrayList(new TreeSet(li));
+		Set<String> set = new LinkedHashSet<String>(li);*/
 		
-		System.out.println(li1);
-		System.out.println(li1.size());
+		System.out.println(li);
+		System.out.println(li.size());
 	}
 }

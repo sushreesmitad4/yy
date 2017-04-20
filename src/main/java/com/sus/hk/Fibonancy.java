@@ -42,7 +42,7 @@ public class Fibonancy {
 		}
 	
 	public static int getFibSeries(int n)
-	{if(n==0){
+	{/*if(n==0){
 		return 0;
 		}
 		
@@ -52,9 +52,22 @@ public class Fibonancy {
 		if(n==2){
 		return 1;
 		}
+		return getFibSeries(n-1)+getFibSeries(n-2);*/
+		
+		if(n==0)
+		{
+			return 0;
+		}
+		if(n==1)
+		{
+			return 1;
+		}
+		
+		if(n==2)
+		{
+			return 1;
+		}
 		return getFibSeries(n-1)+getFibSeries(n-2);
-		
-		
 	}
 
 	

@@ -1,32 +1,46 @@
 package com.sus;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Ex1 {
 
 	public static void main(String[] args) {
 		
-		   String s= new String("tarang");
-		   System.out.println(s.hashCode());
+		   List<TestDTO> test = new ArrayList<TestDTO>();
+		   TestDTO t =null;
 		   
-		  Abu a=new Abu("tarang");
-		   System.out.println(a.hashCode());
+		   t =new TestDTO();
+		   t.setAge("1");
+		   t.setName("sus");
+		   TestDTO t1 = new TestDTO();
+		   t1.setAge("2");
+		   t1.setName("mik");
+		   test.add(t);
+		   test.add(t1);
+		   System.out.println(test);
+
+		  
+		   for(TestDTO  tf: test)
+		   {
+		   tf.setAge("10");
 		   
+		   tf.setName("un");
+		  
+		  
+		   }
+		   
+		  t = new TestDTO();
+		   t.setAge("1");
+		   t.setName("sus");
+		   test.add(t);
+		   System.out.println(test);
+
+		   
+		 
     }
 
-	}
-class Abu{
-	String data;
-	Abu(String data)
-	{
-		this.data=data;
-	}
-	
-	
-	private void m() {
-		System.out.println("in method1");
-	}
-		// TODO
 	
 	
 }

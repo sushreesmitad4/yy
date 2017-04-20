@@ -11,28 +11,31 @@ import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.SortedSet;
+import java.util.StringTokenizer;
 import java.util.TreeSet;
 
 public class Test {
-	//give the full control to the targeted compount to the work done
-	//one oj=bject is rely on another object but without knowing which class its belongs to at compile time
+	
+			
+	 public static void main(String[] args) {
+
+	      int arr1[] = { 0, 1, 2, 3, 4, 5 };
+	      int arr2[] = { 5, 10, 20, 30, 40, 50 };
+	    
+	      // copies an array from the specified source array
+	      System.arraycopy(arr1, 1, arr2,2, 2);
+	      System.out.print("array2 = ");
+	      System.out.print(arr2[0] + " ");
+	      System.out.print(arr2[1] + " ");
+	      System.out.print(arr2[2] + " ");
+	      System.out.print(arr2[3] + " ");
+	      System.out.print(arr2[4] + " ");
+	      System.out.print(arr2[5] + " ");
+	   }
+	
+
+}
+
 	
 	
-	public static void main(String[] args)
-	{
-		List<String> list = new ArrayList<String>();
-		list.add("smita");
-		list.add("dhal");
-		list.add("ananya");
-		
-		System.out.println(list);
-		
-		
-		Map<String,String> map = new HashMap<String,String>();
-		map.put("x", "smita");
-		map.put("y", "dhal");
-		map.put("z", "ananya");
-		System.out.println(map);
-	}
 	
-	}

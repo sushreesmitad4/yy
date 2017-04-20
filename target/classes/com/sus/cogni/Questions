@@ -1,4 +1,4 @@
-#How does hashmap works.
+#How does hashmap works internally.
 #how hashset remove duplicates internally.
 #if a sigleton class will serialized how many object will create.
 #if a class throw io exception and class b extends a throw exception what will happen
@@ -6,4 +6,18 @@
 a.concat("tech").how many object will create
 
 #spring bean life cycle
-#how autowire works
+#how autowire works actually
+#why we are using serial version id in pojo classes
+# why @transactional used
+#why we are using @service in service layer
+#equal Hascode Implementation
+#remove duplicate words from a praragraph
+#if media player and notepad we opened then is it ok to use yield method and where u will use.
+
+
+
+follow linkes
+
+http://java.scjp.jobs4times.com/
+http://www.javamadesoeasy.com/
+https://www.hackerrank.com
